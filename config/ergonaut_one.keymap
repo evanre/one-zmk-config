@@ -32,7 +32,8 @@
                 <&kp LGUI>,
                 <&macro_tap>,
                 <&kp SPACE>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LGUI>;
         };
     };
 
@@ -59,7 +60,7 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <21 22>;
+            key-positions = <17 18>;
             bindings = <&kp ESC>;
         };
 

@@ -173,7 +173,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
 combos:
-- p: [21, 22]
+- p: [17, 18]
   k: Esc
   draw_separate: true
 - p: [15, 16]
