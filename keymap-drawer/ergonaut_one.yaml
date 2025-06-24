@@ -26,7 +26,7 @@ layers:
   - ;
   - ''''
   - '&lang_beh'
-  - {t: Z, h: Alt}
+  - '&td_alt_z'
   - X
   - C
   - V
