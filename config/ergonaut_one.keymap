@@ -50,7 +50,7 @@
             label = "TD_ALT_Z";
             #binding-cells = <0>;
             bindings = <&kp Z>, <&mt LALT Z>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
         };
     };
 
