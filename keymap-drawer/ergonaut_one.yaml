@@ -26,7 +26,7 @@ layers:
   - ;
   - ''''
   - '&lang_beh'
-  - '&td_alt_z'
+  - Z
   - X
   - C
   - V
@@ -172,10 +172,3 @@ layers:
   - ''
   - {type: held}
   - {t: ▽, type: trans}
-combos:
-- p: [19, 20]
-  k: Esc
-  draw_separate: true
-- p: [15, 16]
-  k: ↹
-  draw_separate: true
