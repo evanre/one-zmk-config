@@ -8,8 +8,8 @@
 #define ADJ 3
 
 &mt {
-    tapping-term-ms = <200>;
-    flavor = "tap-preferred";
+    tapping-term-ms = <125>;
+    flavor = "hold-preferred";
 };
 
 / {
@@ -27,11 +27,14 @@
             compatible = "zmk,behavior-macro";
             label = "LANG_MACRO";
             #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <40>;
             bindings =
                 <&macro_press>,
                 <&kp LGUI>,
                 <&macro_tap>,
                 <&kp SPACE>,
+                <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp LGUI>;
         };
@@ -44,7 +47,7 @@
             #binding-cells = <0>;
             bindings = <&kp LSHIFT>, <&lang_macro>;
 
-            tapping-term-ms = <300>;
+            tapping-term-ms = <350>;
         };
     };
 
