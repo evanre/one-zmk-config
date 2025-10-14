@@ -63,8 +63,8 @@ layers:
   - Vol Down
   - Vol Up
   - ←
-  - DOWN ARROW
-  - UP ARROW
+  - ↓
+  - ↑
   - →
   - ''
   - ''
@@ -160,10 +160,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - ←
+  - ↓
+  - ↑
+  - →
   - '&studio_unlock'
   - Reset
   - {t: ▽, type: trans}
