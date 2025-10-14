@@ -80,9 +80,9 @@ layers:
   - ''
   - ''
   - ''
-  - NUM
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
+  - NUM
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,9 +126,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - SYM
+  - {type: held}
+  - {t: ▽, type: trans}
   ADJ:
   - Boot
   - F1
@@ -155,6 +155,7 @@ layers:
   - BT 1
   - BT CLR
   - Reset
+  - '&studio_unlock'
   - ''
   - ''
   - ''
@@ -163,8 +164,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&studio_unlock'
   - Reset
   - {t: ▽, type: trans}
   - {type: held}
