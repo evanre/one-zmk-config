@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
-  MAIN:
+  MAC:
   - ESCAPE
   - Q
   - W
@@ -39,6 +39,49 @@ layers:
   - RIGHT SHIFT
   - Gui
   - SYM
+  - ␣
+  - ENTER
+  - NUM
+  - Alt
+  WIN:
+  - ESCAPE
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BACKSPACE
+  - {t: ↹, h: Ctrl}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - '&win_shift'
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RIGHT SHIFT
+  - Ctrl
+  - '&lwr_alt'
   - ␣
   - ENTER
   - NUM
@@ -158,8 +201,8 @@ layers:
   - '&studio_unlock'
   - ''
   - ''
-  - ''
-  - ''
+  - {t: MAC, h: toggle}
+  - {t: WIN, h: toggle}
   - ←
   - ↓
   - ↑
