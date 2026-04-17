@@ -98,7 +98,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BACKSPACE
+  - DELETE
   - Ctrl
   - ⏮️
   - PLAY
@@ -141,7 +141,7 @@ layers:
   - '*'
   - (
   - )
-  - BACKSPACE
+  - DELETE
   - Ctrl
   - ⏮️
   - PLAY
