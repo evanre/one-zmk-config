@@ -51,11 +51,11 @@
             tapping-term-ms = <350>;
         };
 
-        win_shift: win_shift {
+        win_ctrl: win_ctrl {
             compatible = "zmk,behavior-tap-dance";
-            label = "WIN_SHIFT";
+            label = "WIN_CTRL";
             #binding-cells = <0>;
-            bindings = <&kp LSHIFT>, <&kp LGUI>;
+            bindings = <&kp LCTRL>, <&kp LGUI>;
 
             tapping-term-ms = <350>;
         };
@@ -88,8 +88,8 @@
             bindings = <
 &kp ESCAPE     &kp Q  &kp W  &kp E      &kp R     &kp T      &kp Y      &kp U    &kp I      &kp O    &kp P     &kp BACKSPACE
 &mt LCTRL TAB  &kp A  &kp S  &kp D      &kp F     &kp G      &kp H      &kp J    &kp K      &kp L    &kp SEMI  &kp SQT
-&win_shift     &kp Z  &kp X  &kp C      &kp V     &kp B      &kp N      &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                             &kp LCTRL  &lwr_alt  &kp SPACE  &kp ENTER  &mo RSE  &kp RALT
+&lang_beh      &kp Z  &kp X  &kp C      &kp V     &kp B      &kp N      &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                             &win_ctrl  &lwr_alt  &kp SPACE  &kp ENTER  &mo RSE  &kp RALT
             >;
         };
 

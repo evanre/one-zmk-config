@@ -68,7 +68,7 @@ layers:
   - L
   - ;
   - ''''
-  - '&win_shift'
+  - '&lang_beh'
   - Z
   - X
   - C
@@ -80,7 +80,7 @@ layers:
   - .
   - /
   - RIGHT SHIFT
-  - Ctrl
+  - '&win_ctrl'
   - '&lwr_alt'
   - ␣
   - ENTER
